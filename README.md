@@ -2,9 +2,9 @@
 ### Programming assignment for Week 4 of the Coursera course "Getting and Cleaning Data"
 
 This programming assignment should contain 3 elements:
--README.md
--CodeBook.md
--run_analysis.R
+README.md
+CodeBook.md
+run_analysis.R
 
 ### Running the R Stript
 
