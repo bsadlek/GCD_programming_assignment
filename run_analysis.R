@@ -230,7 +230,11 @@ Final_Data <- Tidy_Data %>%
         group_by(subject, activity) %>%
         summarise_all(funs(mean))
 
-# Convert to dataframe to write a CSV file.
+# Write the table using write.table()
+
+write.table(Final_Data, "Final_Data.txt", row.name=FALSE)
+
+# Alternatively, convert to dataframe to write a CSV file.
 
 df <- data.frame(Final_Data)
 write.csv(df, "FinalData.csv", row.names = FALSE)
