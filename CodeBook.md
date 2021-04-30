@@ -1,8 +1,8 @@
-subject                    1-30 
+"subject" :                     1-30 
                               (There are unique numerical identifiers corresponding to each of the 30 subjects)
 
 
-activity                   "walking"
+"activity" :                  "walking"
                            "walking_upstairs"
                            "walking_downstairs"
                            "sitting"
